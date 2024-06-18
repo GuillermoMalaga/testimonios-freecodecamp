@@ -3,7 +3,10 @@ import Testimonio from "./componentes/Testimonio.js";
 function App() {
   return (
     <div className="App">
-      <Testimonio />
+      <div className="contenedor-principal">
+        <h1>Esto es lo que dicen nuestros alumnos sobre el curso de react</h1>
+        <Testimonio />
+      </div>
     </div>
   );
 }
